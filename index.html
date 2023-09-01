@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <h1>Login Page</h1>
+
+    <div id="loginForm">
+        <input type="text" id="username" placeholder="Nome Utente" required><br><br>
+        <input type="password" id="password" placeholder="Password" required><br><br>
+        <button onclick="checkLogin()">Login</button>
+    </div>
+    <div id="welcome" style="display: none;">
+        <p>Grazie per aver effettuato l'accesso <span id="userSpan"></span>, clicca il pulsante qui sotto</p>
+        <button onclick="logout()">Continua</button>
+    </div>
+
+    
+    <script src="index.js">
+    </script>
+</body>
+</html>
